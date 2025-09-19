@@ -1,0 +1,237 @@
+body{
+    background-image:url(/DALL·E\ 2025-02-21\ 10.24.16\ -\ A\ modern\,\ rectangular\ bakground\ image\ for\ a\ restaurant\ website.\ The\ background\ should\ feature\ a\ bold\,\ vibrant\ orange\,\ exactly\ matching\ the\ deep\ orang.webp);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: black;
+    color: bisque;
+    
+}
+h2{
+    font-weight: bolder;
+    color: orangered;
+    font-size: 36px;
+    text-align:;
+
+}
+table,th,td{
+    border-style: solid;
+    border: solid black;
+    border-collapse: collapse;
+    color: bisque;
+}
+pre{
+}
+th,td{
+    max-height: 65px;
+    width: 89px;
+}
+.pic{
+    width: 100px;
+}
+img{
+    width: 98px;
+    height: 85px;
+}
+table{
+    background-image: url(/images/dessert.jpg);
+}
+td{
+    font-weight: bolder;
+    color: black;
+}
+th{
+    color: orangered;
+    font-weight: 900;
+}
+button{
+    border-radius: 50%;
+    height: 120px;
+    width: 120px;
+    
+}
+div{
+    display: inline-block;
+}
+hr{
+    width: 60px;
+   border-color: orangered;
+    border-style: solid orangered;
+}
+body{
+    size: auto;
+}
+.div{
+    width: 47%;
+    font-size: larger;
+    padding: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    border-color: bisque;
+    border-style: solid;
+    
+}
+/*header buttons*/
+.b {
+    width: 300px;
+    height: 40px;
+    margin: 5px;
+    background-color: white;
+    border: 2px solid orangered;
+    color: orangered;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.b:hover {
+    background-color: orangered;
+    color: white;
+    border-color: white;
+}
+
+.fb,.ig{
+    background-color: black;
+}
+
+.mimi{
+    background-color: black;
+    border: 2px solid orangered;
+    color: orangered;
+    border-radius: 20px;
+    text-align: center;
+}
+
+#name,#mail{
+    height: 24px;
+}
+
+.popup-form {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: black;
+    padding: 20px;
+    box-shadow: 0px 0px 10px orangered;
+    border-radius: 10px;
+    z-index: 1000;
+    border: 2px solid orangered;
+}
+
+.popup-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.popup-form button {
+    margin-top: 10px;
+}
+.funga{
+    height: 25px;
+    width: 25px;
+    background-color: red;
+    color: white; 
+    float: right;
+    position: relative;
+    text-align: right;    
+}
+label{
+    color: orangered;
+}
+.submit{
+    width: fit-content;
+    background-color: black;
+    color: orangered;
+    border: 2px solid orangered;
+    box-shadow: 0 0 8px orangered;
+}
+#abc{
+    align-items: center;
+}
+
+.hompg{
+    border: 2px solid orangered;
+    width: 70%;
+    display: ;
+}
+
+.hover:hover{
+    z-index: 245;  /*hover is my class for the footer buttons*/
+    height: 80px ;
+    width: 82px;
+
+
+}
+
+/*berra.css*/
+ .b {   /*HEADER BUTTONS*/
+            width: 80px;
+            height: 40px;
+            margin: 5px;
+            background-color: white;
+            border: 2px solid orangered;
+            color: orangered;
+            font-weight: bold;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .b:hover {
+            background-color: orangered;
+            color: white;
+            border-color: white;
+        }
+        table, th, td {
+            border: 2px solid orangered;
+            border-collapse: collapse;
+            padding: 10px;
+            box-shadow:0 0 15px coral;
+        }
+        .contact-icon {
+            width: 40px;
+            cursor: pointer;
+        }
+        form {
+            max-width: 400px;
+            padding: 10px;
+            background: #f4f4f4;
+            border-radius: 5px;
+        }
+        footer {
+            margin-top: 20px;
+            text-align: center;
+            padding: 3px;
+            background: orangered;
+            
+        }
+        footer button {
+            background: none;
+            border: none;
+            cursor: pointer;
+        }
+        footer img {
+            width: 60px;
+            height: 60px;
+        }
+/*failed mission
+        .brighttheme{
+            background: bisque;
+            color: orangered;
+        }
+            */
+
+            /*form input fields*/
+
+        input,#email,#message{
+            min-height: 5px;
+            border-radius: 20px;
+            min-width: 50%;
+            border: orangered 2px solid;
+            color: orangered;
+        }
+        .form{
+            background-color: black;
+            border:2px solid orangered;
+            box-shadow: 0 16 orangered;
+        }

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Berra Lounge Hotel</title>
+    <link rel="stylesheet" href="">
+    <link rel="icon" type="image/x-icon" href="/images/dribbble.png">
+    <link rel="stylesheet" href="my.css">
+</head>
+<body>
+    <header style="background-color: orangered; padding: 10px;"> <!--buttons/ cllickable links on the header-->
+        <button class="b" onclick="document.getElementById('home').scrollIntoView()">Home</button>
+        <button class="b" onclick="document.getElementById('services').scrollIntoView()">Services</button>
+        <button class="b" onclick="document.getElementById('menu').scrollIntoView()">Menu</button>
+        <button class="b" onclick="document.getElementById('about').scrollIntoView()">About</button>
+        <button class="b" onclick="document.getElementById('contact').scrollIntoView()">Contact</button>
+    </header>
+
+    <h1 style="font-size: 56px; text-align: center;">Berra Lounge Hotel</h1>
+
+    <h2 id="home">HomePage</h2>
+    <button class="b1" style="background-color: bisque; color: orangered; font-weight: 200; border-radius: 10%; width: 240px; font-family: 'Times New Roman', Times, serif; font-size: 20px;">
+        <hr width="250px" color="orangered">
+        Berra Lounge Hotel, Serenity at every munch.
+    </button>
+    <pre>         
+We are physically located at:
+Ngong, Berra. Approx 3km from the army barracks.
+    </pre>
+
+    <h3>Open Hours:</h3>
+    <pre>
+Mon-Fri: 0400hrs to 0200hrs
+Weekend: 24hrs Open
+    </pre>
+
+    <h2 id="services">Services Offered</h2>
+    <pre>
+Meals
+Lounges - up to four persons
+Room service
+Breakfast
+Quick Meals
+Special Takeaways
+Swimming
+Events Hosting
+Mobile Catering Services
+    </pre>
+
+    <h2 id="menu">Menu</h2><!---a simple menu with photographs of some dishes-->
+    <table>
+        <tr>
+            <th>PRODUCT</th>
+            <th>DESCRIPTION</th>
+            <th>VARIETY</th>
+            <th>PRICE</th>
+        </tr>
+        <tr>
+            <td rowspan="5"><img src="/images/burger.jpg" alt="Burger"></td>
+            <td>Hamburger</td>
+            <td>Cheese Burger</td>
+            <td>$3.99</td>
+        </tr>
+        <tr>
+            <td>Large</td>
+            <td>Chicken</td>
+            <td>$4.10</td>
+        </tr>
+        <tr>
+            <td>Medium</td>
+            <td>Beef</td>
+            <td>$2.99</td>
+        </tr>
+        <tr>
+            <td>Small</td>
+            <td>Vegetable</td>
+            <td>$3.10</td>
+        </tr>
+        <tr>
+            <td>Hot Burger</td>
+            <td></td>
+            <td>$4.59</td>
+        </tr>
+        <tr>
+            <td rowspan="4"><img src="/images/burrito cheese, mexican.jpg" alt="Burrito"></td>
+            <td rowspan="4">Mexican Burrito</td>
+            <td>Vegetable</td>
+            <td>$2.00</td>
+        </tr>
+        <tr>
+            <td>Beef</td>
+            <td>$2.00</td>
+        </tr>
+        <tr>
+            <td>Cheese</td>
+            <td>$2.00</td>
+        </tr>
+        <tr>
+            <td>Chicken</td>
+            <td>$2.29</td>
+        </tr>
+    </table>
+
+    <h2 id="about">About Us</h2>
+    <div>
+        <h3>History</h3>
+        Our restaurant, <abbr title="Berra Loung Hotel">BLH</abbr>, was founded in 1983 by Madame Annette Berra as a canteen for the Ngong Barracks...
+    </div>
+
+    <h3>The Berra Fraternity</h3>
+    <ul>
+        <li>Master Chef: Rosslyn Berra</li>
+        <li>Manager: Ronald Anderson</li>
+        <li>HR Officer: Faith Jotters</li>
+        <li>Sanitary Supervisor: Brighton Daniel</li>
+        <li>Inventory Manager: Titus Scarville</li>
+        <li>Finance Officer: Benjamin Daniel Kim</li>
+    </ul>
+
+    <h2 id="contact">Contact</h2>
+    <a href="#" onclick="showForm(); scrollIntoView('demo')"  ><img class="contact-icon" src="/images/email.png" alt="Contact Us"></a>
+    
+    <div id="demo"></div>
+
+    <script>
+        function showForm() {
+            document.getElementById("demo").innerHTML = `
+                <form class="form">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required placeholder="wee ni nani😒🙄"><br><br>
+ 
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required placeholder="example wewe29@mimi.com"><br><br>
+
+                    <label for="message">Message:</label><br>
+                    <textarea id="message" name="message" rows="4" cols="50" required placeholder="unataka nini😂😂💁‍♂️"></textarea><br><br>
+
+                    <input type="submit" value="Send">
+                </form>
+            `;
+        }
+        
+    </script>
+
+    <footer>
+        <a href="https://x.com/?mx=2" target="_blank" >
+            <button><img src="/images/twitter.png" alt="Twitter" class="hover" ></button>
+        </a>
+        <a href="https://wa.me/+254704212366" target="_blank">
+            <button><img src="/images/whatsapp.png" alt="Facebook" class="hover"></button>
+        </a>
+        <a href="https://www.instagram.com/" target="_blank">
+            <button><img src="/images/instagram.png" class="hover" alt="Instagram"></button>
+        </a>
+        <p>&copy copyright 2025 mu&#771ndu&#771😎</p>
+        <!--please note that this website was create only for educational purposes-->
+    </footer>
+</body>
+</html>

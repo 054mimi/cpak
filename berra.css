@@ -1,0 +1,46 @@
+ .b {
+            width: 80px;
+            height: 40px;
+            margin: 5px;
+            background-color: white;
+            border: 2px solid orangered;
+            color: orangered;
+            font-weight: bold;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .b:hover {
+            background-color: orangered;
+            color: white;
+            border-color: white;
+        }
+        table, th, td {
+            border: 2px solid orangered;
+            border-collapse: collapse;
+            padding: 10px;
+            box-shadow:0 0 15px coral;
+        }
+        .contact-icon {
+            width: 40px;
+            cursor: pointer;
+        }
+        form {
+            max-width: 400px;
+            padding: 10px;
+            background: #f4f4f4;
+            border-radius: 5px;
+        }
+        footer {
+            margin-top: 20px;
+            text-align: center;
+            padding: 10px;
+            background: orangered;
+        }
+        footer button {
+            background: none;
+            border: none;
+            cursor: pointer;
+        }
+        footer img {
+            width: 30px;
+        }
