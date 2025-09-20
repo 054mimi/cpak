@@ -84,3 +84,4 @@ This project is a simple, static website for a fictional restaurant and hotel ca
 
 This website is **for educational/demo purposes only**.  
 It is not intended for production use.
+# cpak
